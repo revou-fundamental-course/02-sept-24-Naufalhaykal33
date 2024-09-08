@@ -8,9 +8,9 @@ header{
 
 section .content{
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
 }
 
 /* section .content .jajargenjang{
