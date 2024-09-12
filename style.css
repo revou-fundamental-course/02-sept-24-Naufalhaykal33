@@ -43,6 +43,15 @@ img{
     width: 50%;
 }
 
+input{
+    padding: 12px 10px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
 .gambar{
     display: flex;
     justify-content: center;
