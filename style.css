@@ -72,8 +72,12 @@ fieldset{
     margin: 15px;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 565px) {
     .main-content {
+        flex-direction: column-reverse;
+    }
+
+    .second-main-content {
         flex-direction: column-reverse;
     }
 }
