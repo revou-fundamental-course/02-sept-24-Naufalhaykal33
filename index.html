@@ -1,27 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Project</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
+
 <body>
     <header>
-        <h2>Selamat datang User!</h2>
-        <p>Ini adalah web untuk menghitung Luas dan Keliling Segitiga serta Jajargenjang</p>
-        
+        <div class="title">
+            <h2>Selamat datang di KATIK!</h2>
+            <p>Ini adalah web untuk menghitung Luas dan Keliling Segitiga serta Jajargenjang</p>
+        </div>
     </header>
     <main>
         <section class="content">
             <p>Silahkan pilih bangun datar : </p>
-            <button href="#" class="segitiga"  type="button"> Segitiga </button>
-            <button href="#" class="jajargenjang" type="button"> Jajargenjang </button>
+            <div class="pilih-bangun">
+                <button href="#" class="segitiga" type="button"> Segitiga </button>
+                <button href="#" class="jajargenjang" type="button"> Jajargenjang </button>
+            </div>
+        </section>
+        <section class="main-content">
+            <aside class="samping">
+                <header>
+                    <p>Luas segitiga</p>
+                </header>
+                <div class="gambar">
+                    <img src="/assets/luas segitiga.jpg" alt="gambar luas segitiga">
+                </div>
+                <p>dimana :</p>
+                <ul>
+                    <li>L = Luas</li>
+                    <li>a = Alas</li>
+                    <li>t = Tinggi</li>
+                </ul>
+                <div class="form">
+                <p>Hitung Luas</p>
+
+                <form>
+                    <fieldset>
+                        <legend>Masukkan Bilangan:</legend>
+                        <label for="alas">Alas:</label>
+                        <input type="number" id="alas"><br><br>
+                        <label for="tinggi">Tinggi:</label>
+                        <input type="number" id="tinggi"><br><br>
+                        <label for="Luas">Luas:</label>
+                        <input type="number" id="luasHasil" disabled><br><br>
+                        <input type="button" id="hitungLuas" value="Hasil">
+                        <input type="button" id="resetLuas" value="Reset">
+                    </fieldset>
+                </form>
+            </div>
+            </aside>
+            <aside class="samping">
+                <header>
+                    <p>Keliling segitiga</p>
+                </header>
+                <div class="gambar">
+                    <img src="/assets/keliling segitiga.jpg" alt="gambar keliling segitiga">
+                </div>
+                <p>dimana :</p>
+                <br>
+                <ul>
+                    <li>K = Keliling</li>
+                    <li>s = sisi</li>
+                </ul>
+                <div class="form">
+                    <p>Hitung Keliling</p> 
+                        <form>
+                            <fieldset>
+                                <legend>Masukkan Bilangan:</legend>
+                                <label for="sisi1">Sisi 1:</label>
+                                <input type="number" id="sisi1"><br><br>
+                                <label for="sisi2">Sisi 2:</label>
+                                <input type="number" id="sisi2"><br><br>
+                                <label for="sisi3">Sisi 3:</label>
+                                <input type="number" id="sisi3"><br><br>
+                                <label for="keliling">Keliling:</label>
+                                <input type="number" id="kelilingHasil" disabled><br><br>
+                                <input type="button" id="hitungKeliling" value="Hasil">
+                                <input type="button" id="resetKeliling" value="Reset">
+                            </fieldset>
+                        </form>
+                </div>
+            </aside>
         </section>
     </main>
 
-    <footer>
-
-    </footer>
+    <!-- <footer>
+        <p>dibuat oleh Muhammad Naufal Haykal</p>
+    </footer> -->
 </body>
+
 </html>

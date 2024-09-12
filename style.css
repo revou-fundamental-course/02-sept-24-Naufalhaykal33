@@ -1,20 +1,74 @@
-
-header{
+*{
+    margin: 0;
+    
+}
+header {
     text-align: center;
     background-color: cornflowerblue;
-    padding: 5px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    color: white;
+}
+.title h2{
+    padding-bottom: 10px;
+}
+
+main .content{
+    text-align: center;
+    background-color: bisque;
+}
+main .content p{
+    padding: 10px 0px 20px 0px;
+}
+main .content .bangun-datar{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+}
+aside{
+    flex: 1;
+}
+
+aside p{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+img{
+    width: 50%;
+}
+
+.gambar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.samping .gambar img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    height: 350px;
+}
+
+.form p{
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 10px 0px 10px 0px;
     color: white;
 }
 
-section .content{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: space-around;
+fieldset{
+    margin: 15px;
 }
 
-/* section .content .jajargenjang{
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row-reverse;
+/* footer{
+    position: relative;
+    margin-top: 35%;
+    text-align: center;
 } */
