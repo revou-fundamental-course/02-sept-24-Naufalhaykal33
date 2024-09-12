@@ -55,7 +55,12 @@ img{
     width: 450px;
     height: 350px;
 }
-
+.content-j{
+    display: flex;
+}
+.form{
+    flex: 1;
+}
 .form p{
     text-align: center;
     background-color: cornflowerblue;

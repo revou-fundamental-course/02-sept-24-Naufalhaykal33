@@ -24,8 +24,8 @@
                 <button href="#" class="jajargenjang" type="button"> Jajargenjang </button>
             </div>
         </section>
-        <section class="main-content">
-            <aside class="samping">
+        <section class="main-content" id="segitigaContent">
+            <aside class="samping" >
                 <header>
                     <p>Luas segitiga</p>
                 </header>
@@ -89,11 +89,63 @@
                 </div>
             </aside>
         </section>
+        <section class="second-main-content" id="jajargenjangContent" style="display: none;">
+    <!-- Content Jajargenjang -->
+    <aside class="samping">
+        
+        <header>
+            <p>Luas & Keliling Jajargenjang</p>
+        </header>
+        <div class="gambar">
+            <img src="/assets/jajargenjang.jpeg" alt="gambar luas jajargenjang">
+        </div>
+        <p>dimana :</p>
+        <ul>
+            <li>L = Luas</li>
+            <li>a = Alas</li>
+            <li>t = Tinggi</li>
+        </ul>
+        <div class="content-j">
+        <div class="form">
+            <p>Hitung Luas Jajargenjang</p>
+            <form action="">
+                <fieldset>
+                    <legend>Masukkan Bilangan :</legend>
+                    <label for="alasJ">Alas:</label>
+                    <input type="number" id="alasJ"><br><br>
+                    <label for="tinggiJ">Tinggi:</label>
+                    <input type="number" id="tinggiJ"><br><br>
+                    <label for="luasJ">Luas:</label>
+                    <input type="number" id="luasHasilJ" disabled><br><br>
+                    <input type="button" id="hitungLuasJajargenjang" value="Hasil">
+                    <input type="button" id="resetLuasJajargenjang" value="Reset">
+                </fieldset>
+            </form>
+        </div>
+        <div class="form">
+            <p>Hitung Keliling Jajargenjang</p>
+            <form>
+                <fieldset>
+                    <legend>Masukkan Bilangan:</legend>
+                    <label for="alasK">Alas:</label>
+                    <input type="number" id="alasK"><br><br>
+                    <label for="sisiMiringK">Sisi Miring:</label>
+                    <input type="number" id="sisiMiringK"><br><br>
+                    <label for="kelilingJ">Keliling:</label>
+                    <input type="number" id="kelilingHasilJ" disabled><br><br>
+                    <input type="button" id="hitungKelilingJajargenjang" value="Hasil">
+                    <input type="button" id="resetKelilingJajargenjang" value="Reset">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    </aside>
+        </section>
     </main>
 
     <!-- <footer>
         <p>dibuat oleh Muhammad Naufal Haykal</p>
     </footer> -->
 </body>
-
 </html>
+
