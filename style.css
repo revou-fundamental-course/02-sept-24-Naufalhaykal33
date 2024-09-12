@@ -72,6 +72,11 @@ fieldset{
     margin: 15px;
 }
 
+@media only screen and (max-width: 550px) {
+    .main-content {
+        flex-direction: column-reverse;
+    }
+}
 /* footer{
     position: relative;
     margin-top: 35%;
